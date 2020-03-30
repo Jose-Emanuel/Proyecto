@@ -1,9 +1,91 @@
 body{
 	border:#6B04C8 5px solid;
+	border-top: 0;
   	margin: 0;
+	background-color: white;
+	height: 100%;
 }
 
 header{
 	color:#00C;
-	
+	overflow: hidden;
+	border-top: #6B04C8 5px solid;
+	background-image:url(head.png);
+	height:130px;
+	width: 100%;	
+	position: fixed;
 }
+
+.pagina{
+	padding-top: 130px;
+	display: table;
+	width: 100%;
+}
+
+aside{
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 2%;
+	padding: 5px;
+	background: #B8B8B8;
+	border-radius: 10px;
+}
+
+
+.centrar{
+	width: 97%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+.Inicio{
+	float: left;
+	width: 68%;
+	margin: 20px;
+	margin-left: 5%;
+	margin-right: 0;
+	padding: 5px;
+	background:  #B282DE;
+	border-radius: 10px;
+}
+
+#titulo{
+	font-size: 60px;
+	line-height: 75px;
+	font-family: Lucida Handwriting;
+}
+
+nav{
+	line-height: 50px;
+	float: left;
+}
+a{
+	display: inline-block; 
+	color: #fff;
+	text-decoration: none;
+	line-height: normal;
+	font-weight: bold;
+	padding: 5px ;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+	background: #6312AD;
+	border-radius: 70px;
+}
+
+#articulo_1{
+	background:#C494EF;
+	border-radius: 10px;
+	margin-left: 10%;
+}
+
+#img{
+	float: right;
+	margin: 5px;
+}
+
